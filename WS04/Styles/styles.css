@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(132, 224, 146);
+    color:white;
+}
+
+h1 {
+
+    font-size:20px;
+}
+
+p{
+    font-size:12px;
+}
+
+.first{
+
+    border:dotted;
+    border-width: 2px;
+    width: 100px;
+    height:100px;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+ul{
+
+    list-style-type:square;
+}
+
+
+
+#img{
+    width:480px;
+    height:640px;
+}
+
+
+
+
+#h1{
+    border: 2px;
+    border-color: black;
+    border-style:solid;
+    text-align:center;
+
+   
+}
+
+#p {
+    border-radius:  40px;
+    background-color:rgb(176, 234, 219);
+    margin-top: 10px;
+    text-align:center;
+
+} 
+
+#site{
+    margin:auto;
+    width:50%;
+    
+}
