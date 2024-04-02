@@ -6,7 +6,7 @@ header{
 }
 
 
-h1{
+#header{
     text-align: center;
     color:white;
 }
@@ -14,7 +14,10 @@ h1{
 
 
 #navbarV{
-    float:left;
+    
+    width:30%;
+    padding-top:20px;
+    background-color: grey;
     
 }
 
@@ -33,11 +36,6 @@ h1{
     
 }
 
-#navbarWrap{
-
-   background-color: black
-   
-}
 
 li{
     list-style: none;
@@ -49,9 +47,42 @@ a:link {
     color:white;
 }
 
-#section{
-    float:right;
-    background-color:blue;
-    width:80%;
-    height:80%;
+
+footer{
+    background:black;
+    text-align:10px;
+    text-align:center;
+    color:white;
+    
+    
+}
+
+article{
+    padding:20px;
+   
+    background-color:rgb(139, 134, 134);
+
+}
+
+
+.grid-item1 {grid-area:header;}
+.grid-item2 {grid-area:navi};
+.grid-item3 {grid-area:nav};
+.grid-item4 {grid-area:section};
+.grid-item5 {grid-area:footer};
+
+.grid-container {
+
+    display: grid;
+    grid-template-areas:'header header header header header  header'
+                        'navi navi navi navi navi navi'
+                        'nav nav section section section section'  
+                        'nav nav section section section section'
+                        'footer footer footer footer footer footer';
+    gap: 10px;
+    
+}
+
+#bheader {
+    color:black;
 }
