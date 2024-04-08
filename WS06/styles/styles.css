@@ -30,10 +30,6 @@ header {
   display: inline;
 }
 
-li {
-  list-style: none;
-}
-
 a:link {
   text-decoration: none;
   color: white;
@@ -64,7 +60,7 @@ footer {
 article {
   padding: 20px;
   color: black;
-  background-color:white;
+  background-color: white;
   height: 300px;
 }
 
@@ -101,21 +97,31 @@ article {
   margin: 0 auto;
 }
 
-
-
-.first{
-
-    border:dotted;
-    border-width: 2px;
-    width: 100px;
-    height:100px;
+.first {
+  border: dotted;
+  border-width: 2px;
+  width: 100px;
+  height: 100px;
 }
 
-#ol{
-    list-style-type: upper-alpha;
+.ol {
+  list-style-type: upper-alpha;
 }
 
-#ul{
+.ul {
+  list-style-type: square;
+}
 
-    list-style-type:square;
+.navli {
+  list-style-type: none;
+}
+#site{
+  margin:auto;
+  width:80%;
+  
+}
+
+img{
+
+  width:50px;
 }

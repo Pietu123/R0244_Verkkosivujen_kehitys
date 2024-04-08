@@ -4,28 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mysecondsite</title>
-    <!--<link rel="stylesheet" href="./styles/styles.css">--> 
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <a href="index.html">Link to main page</a>
-
-    <div id="site">
-    <h1 id="h1">My Second Website</h1>
-
-    <p id="p">Some text here</p>
-
-    <img id="img" src="./kuvat/mountain.jpg" alt="mountainwithsnow">
-
-    <figure><img src="./Kuvat/bird.jpg" alt="redbird"><figcaption>A red bird</figcaption></figure>
-
-    <br>
-    
-    <label for="learning">Learning progress</label> <br>
-    
-    
-    <progress id="learning" max="100" value="60"></progress>
-
-</div>
+    <div class="grid-container">
+        <div class="grid-item1">
+          <header id="header">
+            <h1>My Website</h1>
+          </header>
+        </div>
+  
+        <div class="grid-item2">
+          <nav id="navbarH">
+            <ul>
+              <li class="navh"><a href="./index.html">First</a></li>
+              <li class="navh"><a href="./second.html">Second</a></li>
+              <li class="navh"><a href="./third.html">Third</a></li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="grid-item3">
+          <nav id="navbarV">
+            <ul>
+              <li class="navli">
+                <a href="https://www.google.com/" target="_blank">Google</a>
+              </li>
+              <li class="navli"><a href="https://www.bing.com/" target="_blank">Bing</a></li>
+              <li class="navli">
+                <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+  
+        <div class="grid-item4">
+            <div id="site">
+                <!-- <h1 id="h1">My Second Website</h1> -->
+            
+                <p id="p">Some text here</p>
+            
+                <img src="./kuvat/mountain.jpg" alt="mountainwithsnow">
+            
+                <figure><img src="./Kuvat/bird.jpg" alt="redbird"><figcaption>A red bird</figcaption></figure>
+            
+                <br>
+                
+                <label for="learning">Learning progress</label> <br>
+                
+                
+                <progress id="learning" max="100" value="60"></progress>
+            
+            </div>
+        </div>
+  
+        <div class="grid-item5">
+          <footer>
+            <p>Copyright &#169; Pietari Karppinen</p>
+          </footer> 
     
 </body>
 </html>
