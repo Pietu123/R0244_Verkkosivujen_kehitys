@@ -115,13 +115,11 @@ article {
 .navli {
   list-style-type: none;
 }
-#site{
-  margin:auto;
-  width:80%;
-  
+#site {
+  margin: auto;
+  width: 80%;
 }
 
-img{
-
-  width:50px;
+img {
+  width: 50px;
 }
