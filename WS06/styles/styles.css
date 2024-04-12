@@ -115,8 +115,9 @@ article {
 .navli {
   list-style-type: none;
 }
+
 #site {
-  margin: auto;
+  margin: 20px;
   width: 80%;
 }
 
