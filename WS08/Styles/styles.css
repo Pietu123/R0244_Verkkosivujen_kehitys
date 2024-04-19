@@ -1,0 +1,25 @@
+.logo{
+
+    margin:30px;
+}
+
+/* header{
+    margin-bottom:10px;
+} */
+
+h1{
+
+    font-size:30px;
+    margin-top:30px;
+}
+
+#difFont{
+    font-family:"Snell Roundhand", cursive;
+}
+
+li{
+    padding-right:150px;
+    padding-left:150px;
+    padding-bottom:30px;
+    padding-top:30px;
+}
